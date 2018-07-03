@@ -13,6 +13,9 @@
 <body ng-controller="MainController">
   <div class="mainbox">
     <h1>Text Processor</h1>
+    <p>What's this for? You know how when you take text from a textbook PDF, it often keeps its formatting,
+      which you don't want, and sometimes there are hyphens between numbers and units - like '10.0-kg'
+      - which is just wrong, well this simple app removes all of that, and gives you clear plain text.</p>
     <textarea placeholder="Paste text to process here." ng-model="inputText" onclick="this.select();"></textarea>
     <textarea placeholder="Processed text appears here." ng-model="outputText" onclick="this.select();"></textarea>
     <div>
